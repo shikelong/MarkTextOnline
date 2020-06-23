@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Online Text Marker",
+  "description": "A diigo-like chrome extension for web text mark/note",
+  "version": "1.0",
+
+  "permissions": [
+    "https://secure.flickr.com/"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  }
+}
